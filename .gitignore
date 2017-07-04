@@ -13,3 +13,6 @@ classes
 
 # Repository wide ignore mac DS_Store files
 .DS_Store
+/demo-showcase/demo-webapp/src/main/gwt-unitCache/
+/demo-showcase/demo-webapp/src/main/webapp/WEB-INF/lib/
+/demo-showcase/demo-webapp/src/main/webapp/org.uberfire.DemoShowcase/

@@ -18,7 +18,7 @@ public class GuidedDtPerspective {
     public PerspectiveDefinition buildPerspective() {
         final PerspectiveDefinition p = new PerspectiveDefinitionImpl( MultiListWorkbenchPanelPresenter.class.getName() );
         p.setName( "GuidedDtPerspective" );
-        p.getRoot().addPart( new PartDefinitionImpl( new DefaultPlaceRequest( "GuidedDecisionTableEditor" ) ) );
+        p.getRoot().addPart( new PartDefinitionImpl( new DefaultPlaceRequest( "SampleWorkbenchEditor" ) ) );
 
         return p;
     }

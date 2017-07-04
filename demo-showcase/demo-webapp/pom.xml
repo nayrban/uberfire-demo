@@ -118,6 +118,12 @@
         </dependency>
 
         <dependency>
+            <groupId>org.uberfire</groupId>
+            <artifactId>uberfire-layout-editor-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
             <groupId>org.jboss.errai</groupId>
             <artifactId>errai-ui</artifactId>
             <scope>provided</scope>
@@ -251,6 +257,7 @@
             <artifactId>xml-apis</artifactId>
             <scope>provided</scope>
         </dependency>
+
     </dependencies>
 
     <build>
